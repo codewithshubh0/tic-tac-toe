@@ -1,0 +1,133 @@
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: blueviolet;
+    flex-direction: column;
+    
+}
+td{
+   padding: 38px 60px;
+   font-size: 40px;
+   color: white;
+}
+.playername{
+    color: rgb(42, 1, 70);
+    margin-bottom: 20px;
+    margin-top: -50px;
+    font-size: 30px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 2px;
+
+}
+
+.rb{
+    border-right: 12px solid rgb(92, 1, 145);
+    border-bottom: 12px solid rgb(92, 1, 145);
+}
+.r{
+    border-right: 12px solid rgb(92, 1, 145);
+    /* border-bottom: 12px solid rgb(92, 1, 145); */
+}
+.b{
+    /* border-right: 12px solid rgb(92, 1, 145); */
+    border-bottom: 12px solid rgb(92, 1, 145);
+}
+
+.but{
+   margin-top: 20px;
+   border: none;
+   border-radius: 2px;
+   padding: 2px 20px;
+   font-size: 15px;
+}
+.openclose{
+    
+        margin-top: 20px;
+        border: none;
+        border-radius: 2px;
+        padding: 2px 20px;
+        font-size: 15px;
+     
+}
+.openclose:hover{
+    background-color:rgb(92, 1, 145) ;
+    color: white;
+}
+
+.but:hover{
+    background-color:rgb(92, 1, 145) ;
+    color: white;
+}
+.title{
+    font-size: 40px;
+    background-color:rgb(92, 1, 145) ;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
+
+
+
+
+@media (max-width:768px) {
+.square{
+        height: 40px;
+        width: 40px;
+        padding: 50px ;
+        font-size: 25px;
+}
+.rb{
+        border-right: 7px solid rgb(92, 1, 145);
+        border-bottom: 7px solid rgb(92, 1, 145);;
+}
+.rows{
+        width: 25%;
+}
+.b{
+      
+        border-bottom: 7px solid rgb(92, 1, 145);;
+}
+.r{
+        border-right: 7px solid rgb(92, 1, 145);
+        
+}
+.square{
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        min-height: 80px;
+       min-width: 100px;
+        padding: 30px;
+        
+}
+
+
+img{
+    height: 340px;
+    width: 340px;
+}
+.image{
+  margin: 20px 60px;
+}
+td{
+    padding: 28px 35px;
+    font-size: 40px;
+    color: white;
+ }
+ .playername{
+    color: rgb(42, 1, 70);
+    margin-bottom: 20px;
+    margin-top: -80px;
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 2px;
+
+}
+}
+
+
